@@ -7,29 +7,76 @@ body {
 
 }
 
+/*
+ BARVY
+ czechitas  #b92e81
+ zelena     #2ecc71
+ modra      #3498db
+ fialova    #9b59b6
+ zluta      #f1c40f
+ oranzova   #e67e22
+ cervena    #e74c3c
+ seda       #bdc3c7
+ tmavsi     #95a5a6
+ tmava      #34495e
+*/
 
 h1 {
   color:rgb(61, 25, 128);
   font font-size: 40px;
   font-style: normal;
   text-align: center;
-  
-  
+    
 }
 
 
 h2 {
   color:rgba(39, 41, 145, 0.801);
   font-style: normal;
-
 }
 
 p {
   font-size: 18px;
-  
+  text-align: justify;
+ }
+
+
+.vlevo {
+  float:left;
+  margin: 0 1em 1em 0;
+}
+
+
+.navigace li{
+  display:inline-block;
+  }
+
+.navigace {
+padding: 10px 10%;
+background-color:#9b59b6;
+}
+
+.navigace a {
+  display: block;
+  color:white;
+  text-decoration: none;
+  padding: 2em;
+}
+
+.navigace a:hover, 
+.navigace a:focus {
+  background-color: #95a5a6;
+}
+
+h2{
+  clear: left;
 }
 
 section {
-  background-color: rgb(211, 225, 245);
-  text-align: center;
+  padding: 50px 15%;
+}
+
+.test{
+  clear:left;
+  
 }
